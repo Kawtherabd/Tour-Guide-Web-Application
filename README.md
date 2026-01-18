@@ -25,7 +25,7 @@ This project highlights fundamental software engineering concepts that are still
 - Backend interaction with structured data  
 - Clean organization of web application components  
 
-These concepts are essential in domains such as **data engineering, NLP pipelines, enterprise systems, and large-scale applications**, where data quality and structure are critical.
+These concepts are essential in domains such as data engineering, NLP pipelines, enterprise systems, and large-scale applications, where data quality and structure are critical.
 
 ---
 
