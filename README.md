@@ -3,7 +3,7 @@
 ## Project Overview
 This project is an academic web application designed to demonstrate the use of XML technologies in data modeling, validation, and transformation, combined with a PHP-based backend.
 
-The goal of the project is to build a **structured, reliable, and well-organized system** for managing tour guide information, focusing on **data integrity and separation between data, logic, and presentation**.
+The goal of the project is to build a structured, reliable, and well-organized system for managing tour guide information, focusing on data integrity and separation between data, logic, and presentation.
 
 ---
 
