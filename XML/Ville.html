@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informations sur la Ville</title>
+    <link rel="stylesheet" type="text/css" href="styles/pageville.css"/>
+</head>
+<style>
+    
+/* le bouton revenir a la page d'acceuil */
+.back-button {
+    display: inline-block;
+    position: absolute;
+    top: 20px; /* Position verticale */
+    left: 20px; /* Position horizontale */
+    font-size: 14px; /* Taille du texte */
+    color: #fff; /* Couleur du texte */
+    background-color: #282b68; /* Couleur de fond principale */
+    padding: 15px 20px; /* Espacement interne */
+    text-decoration: none; /* Supprime le soulignement */
+    border-radius: 50px; /* Coins arrondis pour un style "pill button" */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Ombre douce */
+    transition: transform 0.2s ease, background-color 0.3s ease; /* Effet de transition */
+    text-align: center; /* Centre le texte */
+    white-space: nowrap; /* Évite les retours à la ligne */
+}
+
+.back-button:hover {
+    background-color: #c28cce; /* Couleur plus foncée au survol */
+    transform: scale(1.1); /* Légère mise en avant au survol */
+    text-decoration: none; /* Assure qu'il n'y a pas de soulignement */
+}
+
+.back-button::before {
+    content: '←'; /* Ajout d'une flèche avant le texte */
+    margin-right: 8px; /* Espacement entre la flèche et le texte */
+    font-size: 16px; /* Taille de la flèche */
+}
+</style>
+<body>
+    <a href="accueil.php" class="back-button">Revenir à l'accueil</a>
+
+    <div id="content"></div>
+
+
+    <!-- Inclure jsPDF pour la génération de PDF -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.3.1/jspdf.umd.min.js"></script>
+    <!-- Inclure le fichier JavaScript externe -->
+    <script src="scripts/pageville.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="xsl/Ville.xsl"?>
+<ville nom="dernier" continent="Europe">
+  <descriptif>dernierrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr</descriptif>
+  <sites>
+    <site nom="dernier"/>
+    <site nom=""/>
+  </sites>
+  <hotels>
+    <hotel>dernier</hotel>
+  </hotels>
+  <restaurants>
+    <restaurant>dernier</restaurant>
+  </restaurants>
+  <gares>
+    <gare>dernier</gare>
+  </gares>
+  <aeroports>
+    <aeroport>dernier</aeroport>
+  </aeroports>
+</ville>

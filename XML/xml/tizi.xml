@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="xsl/Ville.xsl"?>
+<ville nom="tizi" continent="Afrique" pays="algérie">
+  <descriptif>bbbbbbbbbbbbbbbbbbbbbbbbbbb</descriptif>
+  <sites><site/></sites>
+  <hotels><hotel>tizihotel</hotel></hotels>
+  <restaurants><restaurant>tizires</restaurant></restaurants>
+  <gares><gare>tizigare</gare></gares>
+  <aeroports><aeroport>tiziair</aeroport></aeroports>
+</ville>

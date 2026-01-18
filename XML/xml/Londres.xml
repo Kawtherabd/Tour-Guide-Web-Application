@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="xsl/Ville.xsl"?>
+<ville xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+       xsi:noNamespaceSchemaLocation="xsd/Ville.xsd"  nom="Londres">
+
+    <descriptif>Londres, capitale du Royaume-Uni, est une métropole mondiale et un centre
+     historique, culturel et financier. Située sur les rives de la Tamise, cette ville 
+     emblématique allie tradition et modernité, avec des monuments célèbres tels que le Big
+      Ben, le Tower Bridge, et le Palais de Buckingham. Londres est également réputée pour 
+      ses musées de classe mondiale, ses parcs verdoyants, ses quartiers animés comme Soho 
+      et Camden, ainsi que ses marchés uniques. Elle offre une expérience culturelle et 
+      touristique inégalée pour ses habitants et visiteurs.</descriptif> 
+    <sites> 
+        <site nom="Big Ben" photo="images/BigBen.jpg"/>  
+        <site nom="Tower Bridge" photo="images/TowerBridge.jpg"/> 
+    </sites> 
+    <hotels> 
+        <hotel>The Savoy</hotel> 
+        <hotel>The Ritz London</hotel> 
+    </hotels> 
+    <restaurants> 
+        <restaurant>Dishoom</restaurant> 
+        <restaurant>Rules</restaurant> 
+    </restaurants> 
+    <gares> 
+        <gare>London King's Cross</gare> 
+        <gare>London Victoria</gare> 
+    </gares> 
+    <aéroports> 
+        <aéroport>London Heathrow</aéroport> 
+        <aéroport>London Gatwick</aéroport> 
+    </aéroports>  
+</ville>

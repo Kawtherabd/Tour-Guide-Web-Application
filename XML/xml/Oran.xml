@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="xsl/Ville.xsl"?>
+<ville xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+       xsi:noNamespaceSchemaLocation="xsd/Ville.xsd"  nom="Oran">
+
+    <descriptif>Oran, située sur la côte nord-ouest de l'Algérie, est une ville portuaire 
+    emblématique qui allie charme méditerranéen et richesse historique. Surnommée "La 
+    Radieuse", elle est célèbre pour son architecture coloniale, ses places animées, et 
+    ses plages pittoresques. Ville de musique et de culture, Oran est aussi connue comme le
+     berceau du Raï, un genre musical algérien populaire. Les monuments tels que la 
+     chapelle Santa Cruz et le fort de la Montagne Murja, ainsi que la splendeur de son 
+     front de mer, en font une destination prisée pour les visiteurs et un trésor pour ses 
+     habitants.</descriptif> 
+    <sites> 
+        <site nom="Santa Cruz" photo="images/SantaCruz.jpg"/>  
+        <site nom="SidiElHouari" photo="images/SidiElHouari.jpg"/> 
+    </sites> 
+    <hotels> 
+        <hotel>Royal Hotel</hotel> 
+        <hotel>Le Méridien Oran</hotel> 
+    </hotels> 
+    <restaurants> 
+        <restaurant>El Bahia</restaurant> 
+        <restaurant>Le Corsaire</restaurant> 
+    </restaurants> 
+    <gares> 
+        <gare>Oran Gare Centrale</gare> 
+    </gares> 
+    <aéroports> 
+        <aéroport>Ahmed Ben Bella</aéroport> 
+    </aéroports>  
+</ville>

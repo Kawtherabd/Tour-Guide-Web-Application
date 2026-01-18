@@ -1,0 +1,121 @@
+/* Style de base pour la page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+/* Style pour le conteneur principal */
+#content {
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+/* Style pour le titre principal */
+h1 {
+    color: #333;
+    font-size: 2em;
+    text-align: center;
+}
+
+/* Style pour les sections de titre */
+h2 {
+    color: #666;
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+/* Style pour les paragraphes */
+p {
+    color: #444;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* Style pour les listes */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li img {
+    max-width: 100px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+ul li::before {
+    content: "\2022";
+    color: #4d2a57;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}
+
+/* Style pour le formulaire de transformation en PDF */
+form {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #282b68 ;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c28cce;
+}
+
+/* Style pour les liens */
+a {
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* le bouton revenir a la page d'acceuil */
+.back-button {
+    display: inline-block;
+    position: absolute;
+    top: 20px; /* Position verticale */
+    left: 20px; /* Position horizontale */
+    font-size: 14px; /* Taille du texte */
+    color: #fff; /* Couleur du texte */
+    background-color: #282b68; /* Couleur de fond principale */
+    padding: 15px 20px; /* Espacement interne */
+    text-decoration: none; /* Supprime le soulignement */
+    border-radius: 50px; /* Coins arrondis pour un style "pill button" */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Ombre douce */
+    transition: transform 0.2s ease, background-color 0.3s ease; /* Effet de transition */
+    text-align: center; /* Centre le texte */
+    white-space: nowrap; /* Évite les retours à la ligne */
+}
+
+.back-button:hover {
+    background-color: #c28cce; /* Couleur plus foncée au survol */
+    transform: scale(1.1); /* Légère mise en avant au survol */
+    text-decoration: none; /* Assure qu'il n'y a pas de soulignement */
+}
+
+.back-button::before {
+    content: '←'; /* Ajout d'une flèche avant le texte */
+    margin-right: 8px; /* Espacement entre la flèche et le texte */
+    font-size: 16px; /* Taille de la flèche */
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="xsl/Ville.xsl"?>
+<ville nom="aa" continent="Afrique">
+  <descriptif>aaaaaaaaaaaaaaaaaaaaaaaaaa</descriptif>
+  <sites>
+    <site nom="aa" photo="images/playa_genoveses.jpg"/>
+  </sites>
+  <hotels>
+    <hotel>aa</hotel>
+  </hotels>
+  <restaurants>
+    <restaurant>aa</restaurant>
+  </restaurants>
+  <gares>
+    <gare>aa</gare>
+  </gares>
+  <aeroports>
+    <aeroport>aa</aeroport>
+  </aeroports>
+</ville>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="xsl/Ville.xsl"?>
+<ville nom="essai" continent="Afrique">
+  <descriptif>essaiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii</descriptif>
+  <sites/>
+  <hotels>
+    <hotel>essai</hotel>
+  </hotels>
+  <restaurants>
+    <restaurant>essai</restaurant>
+  </restaurants>
+  <gares>
+    <gare>essai</gare>
+  </gares>
+  <aeroports>
+    <aeroport>essai</aeroport>
+  </aeroports>
+</ville>

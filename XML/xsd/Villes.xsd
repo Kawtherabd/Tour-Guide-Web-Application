@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <!-- Élément racine -->
+    <xs:element name="recherche">
+        <xs:complexType>
+            <xs:sequence>
+                <!-- Définition des continents -->
+                <xs:element name="continents">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="continent" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:attribute name="no" type="xs:string" use="required"/>
+                                    <xs:attribute name="nom" type="xs:string" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <!-- Définition des pays -->
+                <xs:element name="pays" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <!-- Liste des villes pour chaque pays -->
+                            <xs:element name="villes">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="ville" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <!-- Liste des sites pour chaque ville -->
+                                                    <xs:element name="sites">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="site" maxOccurs="unbounded">
+                                                                    <xs:complexType>
+                                                                        <xs:attribute name="nom" type="xs:string" use="required"/>
+                                                                        <xs:attribute name="photo" type="xs:string" use="required"/>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                                <xs:attribute name="nom" type="xs:string" use="required"/>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="no" type="xs:string" use="required"/>
+                        <xs:attribute name="nom" type="xs:string" use="required"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

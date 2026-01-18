@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-stylesheet type="text/xsl" href="xsl/Ville.xsl"?>
+<ville xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+       xsi:noNamespaceSchemaLocation="xsd/Ville.xsd"  nom="Alger">
+
+    <descriptif>Située au bord de la mer Méditerranée, Alger est une ville dynamique alliant 
+    modernité et histoire. Capitale de l'Algérie, elle se distingue par son architecture 
+    unique, mélangeant influences coloniales françaises et traditions arabes. La Casbah, son 
+    vieux quartier inscrit au patrimoine mondial de l'UNESCO, regorge de ruelles étroites et 
+    de monuments historiques, témoins d'un passé riche et mouvementé. Alger est aussi un 
+    centre culturel et économique majeur, avec de nombreux musées, théâtres, et institutions 
+    dédiées à la préservation de son patrimoine. Ses plages, son port animé, et ses restaurants 
+    réputés en font une destination prisée des visiteurs, tout en étant un lieu de vie vibrant 
+    pour ses habitants.</descriptif> 
+    <sites> 
+        <site nom="Casbah" photo="images/casbah.jpg"/>  
+        <site nom="Bastion 23" photo="images/bastion23.jpg"/> 
+    </sites> 
+    <hotels> 
+        <hotel>El Aurassi</hotel> 
+        <hotel>El Djazair</hotel> 
+    </hotels> 
+    <restaurants> 
+        <restaurant>El Nadjah</restaurant> 
+        <restaurant>El Bena</restaurant> 
+    </restaurants> 
+    <gares> 
+    <gare>Caroubier</gare> 
+    </gares> 
+    <aéroports> 
+    <aéroport>Houari Boumediene</aéroport> 
+    </aéroports>  
+</ville> 

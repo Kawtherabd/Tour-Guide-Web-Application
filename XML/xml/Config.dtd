@@ -1,0 +1,14 @@
+<!ELEMENT config (header, nav)>
+<!ELEMENT header (titre, image)>
+<!ELEMENT titre (#PCDATA)>
+<!ELEMENT image (#PCDATA)>
+<!ELEMENT nav (etudiant+)>
+<!ELEMENT etudiant (nom, prenom, specialite, section, groupe, email)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT prenom (#PCDATA)>
+<!ELEMENT specialite (#PCDATA)>
+<!ELEMENT section (#PCDATA)>
+<!ELEMENT groupe (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+
+

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="xsl/Villes.xsl"?>
+<?xml-stylesheet type="text/xsl" href="xsl/Villes.xsl"?>
+<recherche xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="xsd/Villes.xsd"> 
+  <!-- Les continents --> 
+  <continents> 
+    <continent no="C1" nom="Afrique"/> 
+    <continent no="C2" nom="Europe"/> 
+    <continent no="C3" nom="Asie"/>
+    <continent no="C4" nom="Amérique du Nord"/>
+    <continent no="C5" nom="Amérique du Sud"/>
+    <continent no="C6" nom="Antarctique"/>
+    <continent no="C7" nom="Océanie"/>
+  </continents> 
+  <!-- Les Pays --> 
+  <pays no="C1" nom="Algérie"> 
+    <villes> 
+      <ville nom="Alger">  
+      <sites> 
+      <site nom="Casbah" photo="images/casbah.jpg"/>  
+      <site nom="Bastion 23" photo="images/bastion23.jpg"/> 
+      </sites>  
+    </ville> 
+    <ville nom="Oran">  
+      <sites> 
+      <site nom="Santa Cruz" photo="images/SantaCruz.jpg"/>  
+      <site nom="Bastion 23" photo="images/SidiElHouari.jpg"/> 
+      </sites>  
+    </ville> 
+    </villes> 
+  </pays> 
+
+  <pays no="C2" nom="Espagne"> 
+    <villes> 
+      <ville nom="Almeria">  
+        <sites> 
+          <site nom="Alcazaba de Almeria" photo="images/alcazaba.jpg"/>  
+          <site nom="Playa de los Genoveses" photo="images/playa_genoveses.jpg"/> 
+          <site nom="Cabo de Gata-Níjar Natural Park" photo="images/cabo_de_gata.jpg"/> 
+        </sites>  
+      </ville> 
+    </villes> 
+  </pays>
+
+  <pays no="C2" nom="France">
+    <villes>
+      <ville nom="Paris">
+        <sites>
+          <site nom="Tour Eiffel" photo="images/tour_eiffel.jpg"/>
+          <site nom="Musée du Louvre" photo="images/louvre.jpg"/>
+          <site nom="Cathédrale Notre-Dame" photo="images/notre_dame.jpg"/>
+        </sites>
+      </ville>
+      <ville nom="Nice">
+        <sites>
+          <site nom="Promenade des Anglais" photo="images/promenade_anglais.jpg"/>
+          <site nom="Vieux Nice" photo="images/vieux_nice.jpg"/>
+          <site nom="Colline du Château" photo="images/colline_chateau.jpg"/>
+        </sites>
+      </ville>
+    </villes>
+  </pays>
+
+
+  <pays no="C2" nom="Grande Bretagne"> 
+    <villes> 
+    <ville nom="Londres">  
+      <sites> 
+      <site nom="Big Ben" photo="images/BigBen.jpg"/>  
+      <site nom="Tower Bridge" photo="images/TowerBridge.jpg"/> 
+      </sites>  
+    </ville> 
+    </villes> 
+  </pays> 
+
+  <pays no="C3" nom="Japon"> 
+  <villes> 
+    <ville nom="Tokyo">  
+      <sites> 
+        <site nom="Tour de Tokyo" photo="images/TourTokyo.jpg"/>  
+        <site nom="Temple Sensō-ji" photo="images/Sensoji.jpg"/> 
+      </sites>  
+    </ville> 
+    <ville nom="Kyoto">  
+      <sites> 
+        <site nom="Pavillon d'Or" photo="images/PavillonOr.jpg"/>  
+        <site nom="Temple Kiyomizu-dera" photo="images/KiyomizuDera.jpg"/> 
+      </sites>  
+    </ville> 
+  </villes> 
+</pays>
+
+
+    
+<pays no="C11" nom="algérie"><villes><ville nom="tizi"><sites><site nom="la tour" photo="images/casbah.jpg"/></sites></ville></villes></pays><pays no="C17" nom="iuhuiuiuiu"><villes><ville nom="kjuyvuyv"><sites><site nom="iniuhiuhiu"/></sites></ville></villes></pays><pays no="C74" nom="jjjjjjjjjjjjjjjjj"><villes><ville nom="hhhhhhhhh"><sites><site nom="llllllllllll"/></sites></ville></villes></pays><pays no="C57" nom="iiiiiiiiiiiiiiiii"><villes><ville nom="gggggggg"><sites/></ville></villes></pays></recherche>

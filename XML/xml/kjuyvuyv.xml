@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="xsl/Ville.xsl"?>
+<ville nom="kjuyvuyv" continent="Afrique" pays="iuhuiuiuiu">
+  <descriptif>hhhhhhhhhhhhhhhhhhhhhhhhhhhh</descriptif>
+  <sites><site nom="iniuhiuhiu"/></sites>
+  <hotels><hotel/></hotels>
+  <restaurants><restaurant/></restaurants>
+  <gares><gare/></gares>
+  <aeroports><aeroport/></aeroports>
+</ville>

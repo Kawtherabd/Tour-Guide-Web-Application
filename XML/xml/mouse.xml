@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="xsl/Ville.xsl"?>
+<ville nom="mouse" continent="Afrique">
+  <descriptif>hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh</descriptif>
+  <sites>
+    <site nom="jjjjjjjjjjjjjjjjjjjjjjjjjjjjjj" photo="images/headers.jpg"/>
+  </sites>
+  <hotels>
+    <hotel>jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj</hotel>
+  </hotels>
+  <restaurants>
+    <restaurant>llllllllllllllllllllllllll</restaurant>
+  </restaurants>
+  <gares>
+    <gare>cccccccccccccccccccccc</gare>
+  </gares>
+  <aeroports>
+    <aeroport>ssssssssssssssssss</aeroport>
+  </aeroports>
+</ville>
